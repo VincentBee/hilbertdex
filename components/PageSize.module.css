@@ -1,0 +1,15 @@
+.select {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: transparent;
+  border: 1px solid #fcd9b8;
+  color: #fcd9b8;
+  padding: 1rem;
+  font-size: 20pt;
+  cursor: pointer;
+}
+
+.current {
+  color: #e09145;
+}

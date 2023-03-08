@@ -1,0 +1,22 @@
+.pagination {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.item {
+  font-size: 20pt;
+}
+
+.current {
+  color: #e09145;
+}
+
+.link {
+  color: #fcd9b8;
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.list {
+  padding-top: 2rem;
+  padding-bottom: 9rem;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.item {
+  transition: all .4s ease;
+  transform-origin: left;
+  padding: 0 2rem;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(3);
+  background:#292c35 ;
+}
+
+.link {
+  color: #fcd9b8;
+  text-decoration: none;
+}
